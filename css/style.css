@@ -1,8 +1,20 @@
-body {
-    padding: 40px 0px 0px 0px;
-    margin: 0px;
-    font-family: 'Roboto Condensed';
-    background-color: #fbfbf6;
+body,
+html {
+    height: 100%;
+    padding: 25px 0px 0px 0px;
+    font-family: 'Roboto';
+    background-image: url("https://github.com/cmsanjaykrishna/Personal_profile/blob/master/images/151202115552-reykjaviksk-exlarge-169.jpg?raw=true");
+}
+
+.bg {
+    /* The image used */
+    background-image: url("img_girl.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a:hover,
@@ -16,7 +28,7 @@ a:focus {
 }
 
 .navbar-default {
-    background-color: peach;
+    background-color: ;
     color: Black;
 }
 
@@ -25,7 +37,7 @@ a:focus {
 }
 
 .navbar-default .navbar-brand:hover {
-    color: white;
+    color: rgb(33, 65, 172);
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -62,7 +74,7 @@ a:focus {
 }
 
 .block2 {
-    background: #96bcdc;
+    background: #69076d80;
     color: White;
     max-width: 100%;
     padding-bottom: 30px;
@@ -76,7 +88,7 @@ a:focus {
 
 .block2 .btn {
     padding: 5px 20px 5px 20px;
-    background: #8ea0ac;
+    background: #000000;
 }
 
 .block2 .btn:hover {
@@ -85,13 +97,8 @@ a:focus {
 }
 
 #avatar {
-    border: 5px solid #19b821;
     border-radius: 50%;
     width: 80%;
-}
-
-.pink-text {
-    color: #eb99ce;
 }
 
 section {
@@ -141,7 +148,7 @@ li {
 
 footer {
     color: White;
-    background-color: #8ea0ac;
+    background-color: #000102;
     padding: 20px 0px 10px 0px;
 }
 
@@ -218,4 +225,5 @@ hr.star-dark:after {
 
 #fun-text {
     padding-top: 50px;
+    text-align: justify;
 }
