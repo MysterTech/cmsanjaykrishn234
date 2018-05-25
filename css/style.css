@@ -16,7 +16,7 @@ a:focus {
 }
 
 .navbar-default {
-    background-color: #cc6699;
+    background-color: peach;
     color: Black;
 }
 
@@ -85,7 +85,7 @@ a:focus {
 }
 
 #avatar {
-    border: 5px solid #eb99ce;
+    border: 5px solid #19b821;
     border-radius: 50%;
     width: 80%;
 }
@@ -155,4 +155,67 @@ footer a:hover {
 
 .img {
     box-shadow: 3px 3px 10px #888888;
+}
+
+hr.star-bright,
+hr.star-dark {
+    margin: 30px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+@media(min-width:1023px) {
+    header hr.star-bright,
+    header hr.star-dark {
+        margin-right: 0;
+        text-align: center;
+    }
+    header hr.star-bright:after,
+    header hr.star-dark:after {
+        right: -10px;
+    }
+}
+
+hr.star-bright:after,
+hr.star-dark:after {
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+}
+
+hr.star-bright {
+    border-color: #fff;
+}
+
+hr.star-bright:after {
+    color: #fff;
+    background-color: #aaa;
+}
+
+hr.star-dark {
+    border-color: #888;
+}
+
+hr.star-dark:after {
+    color: #888;
+    background-color: #eee;
+}
+
+#portfolio .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+#fun-text {
+    padding-top: 50px;
 }
